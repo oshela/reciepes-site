@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .card{
+        @apply bg-white rounded overflow-hidden shadow-md relative
+    }
+    .btn{
+        @apply rounded py-2 px-4 uppercase text-xs font-bold cursor-pointer tracking-wider;
+    }
+    .login{
+        @apply  btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white hover:shadow-md transition ease-out duration-500;
+    }
+}
